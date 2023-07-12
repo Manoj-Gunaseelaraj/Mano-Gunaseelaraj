@@ -1,0 +1,74 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/guess__game/guess.css">
+</head>
+<body>
+    <div class="guess__game">
+        <div class="top">
+            <div class="top_panel">
+                <div class="again">
+                    <h2>Again!</h2>
+                </div>
+                <div class="between">
+                    <p>(Between 1 to 20)</p>
+                </div>
+            </div>
+            <div class="guess_the_number">
+                <h1>Guess the number</h1>
+            </div>
+            <div class="number">
+                <input type="number">
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="left--side">
+                <input type="number">
+                <button>check</button>
+            </div>
+            <div class="right--side">
+                <p>🎉correct number</p>
+                <p>💯score : <span>17</span> </p>
+                <p>💰highscore : <span>17</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="guess.css" />
+    <title>Guess My Number!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Guess My Number!</h1>
+      <p class="between">(Between 1 and 20)</p>
+      <button class="btn again">Again!</button>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+        <button class="btn check">Check!</button>
+      </section>
+      <section class="right">
+        <p class="message">Start guessing...</p>
+        <p class="label-score">💯 Score: <span class="score">20</span></p>
+        <p class="label-highscore">
+          🥇 Highscore: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <script src="guess.js"></script>
+  </body>
+</html>

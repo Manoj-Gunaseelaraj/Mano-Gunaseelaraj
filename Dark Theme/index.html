@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/queries.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Dark-Theme</title>
+  </head>
+  <body>
+    <main>
+      <nav class="navigation">
+        <div class="nav-logo">
+          <ion-icon
+            name="battery-full-outline"
+            class="icon-nav icon"
+          ></ion-icon>
+          <h4 class="logo">Dark Theme</h4>
+        </div>
+        <div class="nav-lists">
+          <ul class="nav-list">
+            <li class="nav-links">Home</li>
+            <li class="nav-links">About us</li>
+            <li class="nav-links">Service</li>
+            <li class="nav-links">Feature</li>
+            <li class="nav-links"><a href="">Get Started</a></li>
+          </ul>
+        </div>
+      
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </nav>
+    </main>
+    <section class="hero-section">
+      <div class="hero">
+        <div class="hero-description-box">
+          <a href="" class="hero-btn-main">Come-on lets start</a>
+          <h1 class="hero-heading">
+            The world to be Impressed this Thing &rarr;
+          </h1>
+          <p class="hero-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+            cupiditate accusamus similique earum velit? Quaerat ea quam
+            molestias!
+          </p>
+          <a href="" class="hero-btn-start">Read More &rarr;</a>
+        </div>
+        <div class="hero-img-box">
+          <img src="/images/hero-img.avif" alt="" />
+        </div>
+      </div>
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,234.7C384,256,480,288,576,272C672,256,768,192,864,165.3C960,139,1056,149,1152,138.7C1248,128,1344,96,1392,80L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,160L48,149.3C96,139,192,117,288,122.7C384,128,480,160,576,181.3C672,203,768,213,864,197.3C960,181,1056,139,1152,117.3C1248,96,1344,96,1392,96L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
+      <!-- <svg
+        id="wave"
+        style="transform: rotate(0deg); transition: 0.3s"
+        viewBox="0 0 1440 160"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+            <stop
+              stop-color="rgba(114.195, 114.195, 114.195, 1)"
+              offset="0%"
+            ></stop>
+            <stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop>
+          </linearGradient>
+        </defs>
+        <path
+          style="transform: translate(0, 0px); opacity: 1"
+          fill="url(#sw-gradient-0)"
+          d="M0,32L24,26.7C48,21,96,11,144,21.3C192,32,240,64,288,69.3C336,75,384,53,432,40C480,27,528,21,576,32C624,43,672,69,720,72C768,75,816,53,864,50.7C912,48,960,64,1008,77.3C1056,91,1104,101,1152,93.3C1200,85,1248,59,1296,40C1344,21,1392,11,1440,8C1488,5,1536,11,1584,18.7C1632,27,1680,37,1728,56C1776,75,1824,101,1872,109.3C1920,117,1968,107,2016,101.3C2064,96,2112,96,2160,88C2208,80,2256,64,2304,48C2352,32,2400,16,2448,16C2496,16,2544,32,2592,53.3C2640,75,2688,101,2736,93.3C2784,85,2832,43,2880,40C2928,37,2976,75,3024,85.3C3072,96,3120,80,3168,72C3216,64,3264,64,3312,66.7C3360,69,3408,75,3432,77.3L3456,80L3456,160L3432,160C3408,160,3360,160,3312,160C3264,160,3216,160,3168,160C3120,160,3072,160,3024,160C2976,160,2928,160,2880,160C2832,160,2784,160,2736,160C2688,160,2640,160,2592,160C2544,160,2496,160,2448,160C2400,160,2352,160,2304,160C2256,160,2208,160,2160,160C2112,160,2064,160,2016,160C1968,160,1920,160,1872,160C1824,160,1776,160,1728,160C1680,160,1632,160,1584,160C1536,160,1488,160,1440,160C1392,160,1344,160,1296,160C1248,160,1200,160,1152,160C1104,160,1056,160,1008,160C960,160,912,160,864,160C816,160,768,160,720,160C672,160,624,160,576,160C528,160,480,160,432,160C384,160,336,160,288,160C240,160,192,160,144,160C96,160,48,160,24,160L0,160Z"
+        ></path>
+      </svg> -->
+      <!-- <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 300" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(255, 255, 255, 1)" offset="0%"></stop><stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,150L26.7,135C53.3,120,107,90,160,105C213.3,120,267,180,320,180C373.3,180,427,120,480,100C533.3,80,587,100,640,115C693.3,130,747,140,800,130C853.3,120,907,90,960,85C1013.3,80,1067,100,1120,125C1173.3,150,1227,180,1280,170C1333.3,160,1387,110,1440,115C1493.3,120,1547,180,1600,215C1653.3,250,1707,260,1760,240C1813.3,220,1867,170,1920,145C1973.3,120,2027,120,2080,100C2133.3,80,2187,40,2240,55C2293.3,70,2347,140,2400,155C2453.3,170,2507,130,2560,110C2613.3,90,2667,90,2720,85C2773.3,80,2827,70,2880,65C2933.3,60,2987,60,3040,65C3093.3,70,3147,80,3200,80C3253.3,80,3307,70,3360,75C3413.3,80,3467,100,3520,120C3573.3,140,3627,160,3680,140C3733.3,120,3787,60,3813,30L3840,0L3840,300L3813.3,300C3786.7,300,3733,300,3680,300C3626.7,300,3573,300,3520,300C3466.7,300,3413,300,3360,300C3306.7,300,3253,300,3200,300C3146.7,300,3093,300,3040,300C2986.7,300,2933,300,2880,300C2826.7,300,2773,300,2720,300C2666.7,300,2613,300,2560,300C2506.7,300,2453,300,2400,300C2346.7,300,2293,300,2240,300C2186.7,300,2133,300,2080,300C2026.7,300,1973,300,1920,300C1866.7,300,1813,300,1760,300C1706.7,300,1653,300,1600,300C1546.7,300,1493,300,1440,300C1386.7,300,1333,300,1280,300C1226.7,300,1173,300,1120,300C1066.7,300,1013,300,960,300C906.7,300,853,300,800,300C746.7,300,693,300,640,300C586.7,300,533,300,480,300C426.7,300,373,300,320,300C266.7,300,213,300,160,300C106.7,300,53,300,27,300L0,300Z"></path></svg> -->
+      <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 260" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(255, 255, 255, 1)" offset="0%"></stop><stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,130L26.7,117C53.3,104,107,78,160,91C213.3,104,267,156,320,156C373.3,156,427,104,480,86.7C533.3,69,587,87,640,99.7C693.3,113,747,121,800,112.7C853.3,104,907,78,960,73.7C1013.3,69,1067,87,1120,108.3C1173.3,130,1227,156,1280,147.3C1333.3,139,1387,95,1440,99.7C1493.3,104,1547,156,1600,186.3C1653.3,217,1707,225,1760,208C1813.3,191,1867,147,1920,125.7C1973.3,104,2027,104,2080,86.7C2133.3,69,2187,35,2240,47.7C2293.3,61,2347,121,2400,134.3C2453.3,147,2507,113,2560,95.3C2613.3,78,2667,78,2720,73.7C2773.3,69,2827,61,2880,56.3C2933.3,52,2987,52,3040,56.3C3093.3,61,3147,69,3200,69.3C3253.3,69,3307,61,3360,65C3413.3,69,3467,87,3520,104C3573.3,121,3627,139,3680,121.3C3733.3,104,3787,52,3813,26L3840,0L3840,260L3813.3,260C3786.7,260,3733,260,3680,260C3626.7,260,3573,260,3520,260C3466.7,260,3413,260,3360,260C3306.7,260,3253,260,3200,260C3146.7,260,3093,260,3040,260C2986.7,260,2933,260,2880,260C2826.7,260,2773,260,2720,260C2666.7,260,2613,260,2560,260C2506.7,260,2453,260,2400,260C2346.7,260,2293,260,2240,260C2186.7,260,2133,260,2080,260C2026.7,260,1973,260,1920,260C1866.7,260,1813,260,1760,260C1706.7,260,1653,260,1600,260C1546.7,260,1493,260,1440,260C1386.7,260,1333,260,1280,260C1226.7,260,1173,260,1120,260C1066.7,260,1013,260,960,260C906.7,260,853,260,800,260C746.7,260,693,260,640,260C586.7,260,533,260,480,260C426.7,260,373,260,320,260C266.7,260,213,260,160,260C106.7,260,53,260,27,260L0,260Z"></path></svg>
+    </section>
+    <section class="people-section">
+      <div class="container people-container">
+        <div class="people-heading">
+          <h1 class="secondary-heading">
+            Trusted by <span>200 &plus; </span>Developer around World
+          </h1>
+        </div>
+        <div class="image-container">
+          <figure class="people-images">
+            <img src="/images/person-1.avif" alt="" class="people-image" />
+          </figure>
+          <figure class="people-images">
+            <img src="/images/person-2.avif" alt="" class="people-image" />
+          </figure>
+          <figure class="people-images">
+            <img src="/images/person-3.avif" alt="" class="people-image" />
+          </figure>
+          <figure class="people-images">
+            <img src="/images/person-4.avif" alt="" class="people-image" />
+          </figure>
+          <figure class="people-images">
+            <img src="/images/person-5.avif" alt="" class="people-image" />
+          </figure>
+          <figure class="people-images">
+            <img src="/images/person-6.avif" alt="" class="people-image" />
+          </figure>
+          <figure class="people-images">
+            <img src="/images/person-7.avif" alt="" class="people-image" />
+          </figure>
+          <figure class="people-images">
+            <img src="/images/person-8.avif" alt="" class="people-image" />
+          </figure>
+          <figure class="people-images">
+            <img src="/images/person-9.avif" alt="" class="people-image" />
+          </figure>
+          <figure class="people-images">
+            <img src="/images/person-10.avif" alt="" class="people-image" />
+          </figure>
+        </div>
+        <div class="people-description">
+          <p>
+            <span>"</span> LocalCan has been an absolute game-changer for my app
+            development process! As a developer, I used to dread dealing with
+            HTTPS certificates, port numbers, and editing /etc/hosts just to
+            test my apps locally. <span>"</span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="secondary-heading feature-heading">
+        Let's See Our Feature Implementations
+      </div>
+      <div class="feature-description">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+          repudiandae adipisci magni facilis, provident debitis saepe?
+        </p>
+      </div>
+      <div class="feature-container cols-3-grid">
+        <div class="containers-of-feature">
+          <ion-icon name="desktop-outline" class="icon feature-icon"></ion-icon>
+          <div class="feature-box-headings">Visual Design</div>
+          <p class="feature-container-descriptions">
+            Improve your product an high quality resolutions with us
+          </p>
+        </div>
+        <div class="containers-of-feature">
+          <ion-icon
+            name="logo-web-component"
+            class="icon feature-icon"
+          ></ion-icon>
+          <div class="feature-box-headings">logo Design</div>
+          <p class="feature-container-descriptions">
+            learn new things and achieve it and runs a flow as it goes..
+          </p>
+        </div>
+        <div class="containers-of-feature">
+          <ion-icon
+            name="phone-portrait-outline"
+            class="icon feature-icon"
+          ></ion-icon>
+          <div class="feature-box-headings">Mobile Responsive</div>
+          <p class="feature-container-descriptions">
+            Designing of Mobile Responsive design with 100% compactability...
+          </p>
+        </div>
+        <div class="containers-of-feature">
+          <ion-icon
+            name="construct-outline"
+            class="icon feature-icon"
+          ></ion-icon>
+          <div class="feature-box-headings">construct Design</div>
+          <p class="feature-container-descriptions">
+            construct your own website with us enmorous gaining of Knowledge...
+          </p>
+        </div>
+        <div class="containers-of-feature">
+          <ion-icon
+            name="musical-notes-outline"
+            class="icon feature-icon"
+          ></ion-icon>
+          <div class="feature-box-headings">musical Design</div>
+          <p class="feature-container-descriptions">
+            Music is art of life, we provide a playback station to good
+            tracks...
+          </p>
+        </div>
+        <div class="containers-of-feature">
+          <ion-icon name="radio-outline" class="icon feature-icon"></ion-icon>
+          <div class="feature-box-headings">radio Design</div>
+          <p class="feature-container-descriptions">
+            Radio logical methodalogy, improve your hearing sense efficiently...
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="group-section">
+        <img src="/images/group-2.avif" alt="" class="groups">
+    </section> -->
+    <section class="service-container">
+      <div class="service-title">
+        <h1 class="secondary-heading service-heading">
+          Let's Start Our Innovation to Build a
+          <span class="new">New World</span>
+        </h1>
+      </div>
+      <div class="container service-containers cols-2-grid">
+        <div class="boxes">
+          <div class="service-text-box">
+            <h1 class="service-box-heading">01</h1>
+            <h2 class="box-title">Step to start the process initially</h2>
+            <p class="service-box-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              molestias accusantium cumque nam optio. Veniam amet, nostrum aut
+              iste illum in eligendi, itaque perferendis asperiores qui atque
+              voluptates deleniti
+            </p>
+            <a href="" class="service-btn">Read More &darr;</a>
+          </div>
+          <div class="service-img-box">
+            <img src="/images/lap-1.avif" alt="" class="mobile-img" />
+          </div>
+        </div>
+        <div class="boxes boxes-separate-design">
+          <div class="service-img-box">
+            <img src="/images/lap-2.avif" alt="" class="mobile-img" />
+          </div>
+          <div class="service-text-box">
+            <h1 class="service-box-heading">02</h1>
+            <h2 class="box-title">Step to start the process Intermediate</h2>
+            <p class="service-box-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              molestias accusantium cumque nam optio. Veniam amet, nostrum aut
+              iste illum in eligendi, itaque perferendis asperiores qui atque
+              voluptates deleniti
+            </p>
+            <a href="" class="service-btn">Read More &darr;</a>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="service-text-box">
+            <h1 class="service-box-heading">03</h1>
+            <h2 class="box-title">Step to start the process Finally</h2>
+            <p class="service-box-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              molestias accusantium cumque nam optio. Veniam amet, nostrum aut
+              iste illum in eligendi, itaque perferendis asperiores qui atque
+              voluptates deleniti
+            </p>
+            <a href="" class="service-btn">Read More &darr;</a>
+          </div>
+
+          <div class="service-img-box">
+            <img src="/images/lap-5.jpeg" alt="" class="mobile-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="client-section">
+      <h1 class="secondary-heading">Meet With Our Creative Dedicated Team</h1>
+      <p class="client-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis
+        tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in
+        maximus.
+      </p>
+      <div class="clients-pic-box">
+        <!-- cols-3-grid -->
+        <div class="client-box">
+          <figure class="clients-images">
+            <img src="/images/person-4.avif" class="client-photo" alt="" />
+          </figure>
+          <h2>Melina Gracel</h2>
+        </div>
+        <div class="client-box">
+          <figure class="clients-images">
+            <img src="/images/person-2.avif" class="client-photo" alt="" />
+          </figure>
+          <h2>Stephen Markov</h2>
+        </div>
+        <div class="client-box">
+          <figure class="clients-images">
+            <img src="/images/person-3.avif" class="client-photo" alt="" />
+          </figure>
+          <h2>Heney Gilbert</h2>
+        </div>
+      </div>
+    </section>
+    <section class="cta">
+      <h2 class="secondary-heading cta-title">Contact Us</h2>
+      <p class="cta-title-desc">Let's Connect World Together</p>
+      <div class="cta-values">
+        <div class="cta-heading">
+          <h2>Subscribe our Channel to get more Updates</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+            itaque debitis nobis, aut maiores soluta eaque consectetur est amet
+            voluptate!
+          </p>
+        </div>
+        <div class="form">
+          <form action="">
+            <input type="email" placeholder="mano@gmail.com" />
+            <a href="">Subscribe</a>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-first">
+            <h2>Luminous Dark</h2>
+            <p>The Darkness is appear when everything is in light condition</p>
+            <ul>
+                <li><a href=""><ion-icon name="logo-instagram" class="footer-icons"></ion-icon></a></li>
+                <li><a href=""><ion-icon name="logo-facebook" class="footer-icons"></ion-icon></a></li>
+                <li><a href=""><ion-icon name="logo-twitter" class="footer-icons"></ion-icon></a></li>
+                <li><a href=""><ion-icon name="logo-whatsapp" class="footer-icons"></ion-icon></a></li>
+            </ul>
+        </div>
+        <div class="footer-div">
+            <ul>
+                <h2>Company</h2>
+                <li><a href="">About</a></li>
+                <li><a href="">Carres</a></li>
+                <li><a href="">Mobile</a></li>
+                <li><a href="">How its works</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="footer-div">
+            <ul>
+                <h2>Support</h2>
+                <li><a href="">Support Carrers</a></li>
+                <li><a href="">24/7 service</a></li>
+                <li><a href="">Quick Chat</a></li>
+            </ul>
+        </div>
+        <div class="footer-div">
+            <h2>Contact Us</h2>
+            <input type="text" placeholder="Hello, Welcome...">
+            <button><a href="">Request a Callback</a></button>
+        </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
